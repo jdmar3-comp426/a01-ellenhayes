@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jdmar3-comp426/a01-ellenhayes/issues"
   },
-  "homepage": "https://github.com/jdmar3-comp426/a01-ellenhayes#readme"
+  "homepage": "https://github.com/jdmar3-comp426/a01-ellenhayes#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.7"
+  }
 }
