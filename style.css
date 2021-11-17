@@ -32,7 +32,6 @@ nav ul {
 nav li {
     display: inline-block;
     margin: 10px;
-
     position: relative;
 }
 
@@ -95,4 +94,19 @@ h1 {
 
 #title {
     border-bottom: 1px solid #000;
+}
+
+li {
+    padding: 0px;
+}
+
+ul {
+    list-style:circle;
+    float: left;
+    margin-top: 3px;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
 }
