@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background: #00FF00
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background: #000;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #00FF00;
+}
+
+table {
+    width: 100%;
+    background-color: #FF0000;
+}
+
+table th {
+    text-align: center;
+    padding: 5px;
+}
+
+table td {
+    text-align: left;
+}
+
+table, th, td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+button {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #FF0000;
+    height: 35px;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+button:hover {
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    background-color: #FF0000;
+    height: 39px;
+    width: 404px;
+    margin: 10px;
+    padding: 5px;
+}
+
+@font-face { font-family: roboto-regular; 
+    src: url('https://fonts.googleapis.com/css2?family=Rochester&display=swap'); } 
+h1 {
+    font-family: 'Rochester', cursive;
+    font-size: 55px;
+  }
+
+#title {
+    border-bottom: 1px solid #000;
+}
+
+li {
+    padding: 0px;
+}
+
+ul {
+    list-style:circle;
+    float: left;
+    margin-top: 3px;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
